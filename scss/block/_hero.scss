@@ -1,0 +1,171 @@
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-image: url("../../img/block-ptis.png"), url("../../img/block-pet.png");
+  background-position: right bottom, right bottom;
+  padding-bottom: 180px;
+}
+
+.site__hero-img {
+  max-width: 550px;
+}
+
+.site__hero-link {
+  max-width: 600px;
+  Font-size: 78px;
+  Line-height: 64px;
+}
+
+.site__hero-span {
+  color: #78C0DE;
+  Font-size: 70px;
+  Line-height: 64px;
+}
+
+.site__hero-text {
+  max-width: 400px;
+  Font-size: 16px;
+  Line-height: 21px;
+  opacity: 0.6;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.site__hero-button {
+  color: #fff;
+  border: none;
+  padding: 15px 48px 16px 47px;
+  background-color: #333333;
+}
+
+@media only screen and (max-width: 1160px) {
+  .hero__container {
+    background-image: none;
+  }
+
+  .site__hero-img {
+    max-width: 480px;
+  }
+
+  .site__hero-link {
+    max-width: 500px;
+    Font-size: 62px;
+    Line-height: 58px;
+  }
+
+  .site__hero-span {
+    color: #78C0DE;
+    Font-size: 58px;
+    Line-height: 58px;
+  }
+
+  .site__hero-text {
+    max-width: 360px;
+    Font-size: 14px;
+    Line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .hero__container {
+    flex-direction: column;
+    margin-bottom: -80px;
+  }
+
+  .site__hero-img {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .site__hero-img {
+    max-width: 380px;
+  }
+
+  .site__hero-link {
+    max-width: 400px;
+    Font-size: 52px;
+    Line-height: 53px;
+  }
+
+  .site__hero-span {
+    color: #78C0DE;
+    Font-size: 46px;
+    Line-height: 52px;
+  }
+
+  .site__hero-text {
+    max-width: 290px;
+    Font-size: 11px;
+    Line-height: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .site__hero-link {
+    max-width: 400px;
+    Font-size: 52px;
+    Line-height: 53px;
+  }
+
+  .site__hero-span {
+    color: #78C0DE;
+    Font-size: 46px;
+    Line-height: 52px;
+  }
+}
+
+.site__hero-Наша {
+  text-align: center;
+  max-width: 1134px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px 50px;
+}
+
+.site__hero-Наша-text {
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  Font-size: 20px;
+  Line-height: 100%;
+  opacity: 0.6;
+  padding: 30px 60px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/o\'ng.png"), url("../../img/chap.png");
+  background-position: left top, right bottom;
+}
+
+.site__hero-Наша-span {
+  display: block;
+  margin: 0 auto;
+  max-width: 140px;
+  height: 1px;
+  border: 1px solid #817d7d;
+  margin-bottom: 36px;
+}
+
+@media only screen and (max-width: 950px) {
+  .site__hero-Наша {
+    max-width: 1000px;
+    width: 100%;
+    margin-top: -80px;
+  }
+
+  .site__hero-Наша-text {
+    max-width: 800px;
+    width: 100%;
+    padding: 30px 40px;
+    Font-size: 18px;
+    Line-height: 100%;
+ 
+  }
+
+  .site__hero-Наша-span {
+    max-width: 80px;
+  }
+}

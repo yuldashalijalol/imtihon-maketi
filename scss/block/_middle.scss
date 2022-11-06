@@ -1,0 +1,126 @@
+
+.site__middle-Полезные{
+  max-width: 384px;
+  align-items: center;
+  margin: 0 auto;
+  Font-size: 48px;
+Line-height: 20px;
+margin-bottom: 100px;
+}
+.site__middle-link{
+  max-width: 305px;
+  width: 100%;
+  border-radius: 6px;
+  align-items: center;
+  background-color: #fff;
+}
+.site__middle-link-blok{
+  padding: 30px;
+}
+
+.site__middle-block-статьи{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 180px;
+}
+
+.site__middle-time{
+ margin-left: 170px;
+ margin-bottom: 5px;
+ opacity: 0.6;
+}
+.site__middle-зубов{
+  max-width: 182px;
+  Font-size: 22px;
+Line-height: 25px;
+margin-bottom: 16px;
+}
+.site__middle-text{
+  max-width: 244px;
+  Font-size: 16px;
+Line-height: 20px;
+opacity: 0.6;
+margin-bottom: 30px;
+}
+.site__middle-snap{
+  max-width: 98px;
+  Font-size: 16px;
+Line-height: 100%;
+padding-left: 30px;
+background-repeat: no-repeat;
+background-image: url("../../img/sobak-pet.png");
+background-position: center left;
+}
+
+.site__middle-link2{
+  max-width: 640px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.site__middle-зубов2{
+  max-width: 193px;
+  Font-size: 26px;
+Line-height: 29px;
+opacity: 0.8;
+margin-bottom: 24px;
+
+}
+.site__middle-text2{
+  max-width: 270px;
+  Font-size: 16px;
+Line-height: 20px;
+opacity: 0.6;
+margin-bottom: 32px;
+}
+.site__middle-time-blok{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 23px;
+}
+.site__middle-time2{
+  opacity: 0.6;
+  margin-left: 60px;
+}
+
+
+
+@media only screen and (max-width: 1020px){
+  .site__middle-block-статьи{
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .site__middle-link{
+    align-items: center;
+    margin: 0 auto;
+  }
+  .site__middle-link2{
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 690px){
+  .site__middle-link{
+    align-items: center;
+    margin: 0 auto;
+  }
+  .site__middle-link2{
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 450px){
+  .site__middle-Полезные{
+    max-width: 300px;
+    Font-size: 36px;
+    Line-height: 18px;
+  }  
+}
+
+

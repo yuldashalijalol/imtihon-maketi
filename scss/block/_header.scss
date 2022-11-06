@@ -1,0 +1,167 @@
+
+.site__header-link {
+  margin: 0 auto;
+  display: flex;
+}
+
+.site__container {
+  max-width: 100%;
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.site__header-block {
+  display: flex;
+
+}
+
+.site__header-img {
+  margin-top: 16px;
+}
+
+.site__header-item {
+  color: #333333;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  Font-size: 14px;
+  Line-height: 100%;
+  opacity: 1;
+}
+
+.site__header-item-faq+.site__header-item-faq {
+  margin-left: 54px;
+}
+
+.site__header-item-faq {
+  color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  Font-size: 16px;
+  Line-height: 100%;
+}
+
+.site__header-item-tel {
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-image: url("../../img/phone-logo.svg");
+  background-position: center left;
+}
+
+.site__header-item-time {
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-image: url("../../img/time.svg");
+  background-position: center left;
+}
+
+.item-mesta {
+  margin-left: 20px;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/homa.svg");
+  background-position: center left;
+}
+
+.item-tel+.item-tel {
+  padding-left: 16px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/nuqta.png");
+  background-position: center left;
+}
+
+.item-tel {
+  padding-left: 25px;
+}
+
+.ietm-time {
+  padding-left: 25px;
+}
+
+.block-Главная {
+  justify-content: space-between;
+}
+
+.site__header-item-Главная {
+  margin-left: 120px;
+}
+
+.item-Главная {
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/active-riba.png");
+  background-position: center left;
+}
+
+.site__header-item-Задать {
+  margin-left: 110px;
+}
+
+.item-вопрос {
+  padding-left: 35px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/sobak-pet.png");
+  background-position: center left;
+}
+
+.site__header-menu {
+  width: 30px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image: url('../../img/hamburger.png');
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .site__header-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site__header-img {
+    width: 100%;
+
+  }
+
+  .site__header-nav {
+    display: flex;
+    display: none;
+  }
+
+  .site__header-button {
+    width: 100%;
+    display: inline-block;
+
+  }
+  .site__header-link2{
+    display: block;
+    margin-right: 200px;
+  }
+
+  .site__header-menu {
+    display: block;
+    display: inline-block;
+    margin-left: 200px;
+
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1305px) {
+  .site__header-item-Главная {
+    margin-left: 0;
+  }
+
+  .site__header-item-Задать {
+    margin-left: 0;
+  }
+
+}
